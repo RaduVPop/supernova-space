@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Avenir-Regular;
+  src: url("./fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Avenir-Bold;
+  src: url("./fonts/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Avenir-Italic;
+  src: url("./fonts/AvenirNextLTPro-It.otf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  font-family: Avenir-Bold;
+}
+
+p, a {
+  color: #fff;
+  font-family: Avenir-Regular;
+}
+
+body {
+  background: #000;
+  margin: 0;
+  font-family: Avenir-Regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-family: Avenir-Bold;
+  transition: 250ms linear;
+}
+
+.btn-light {
+  background: rgba(255, 255, 255, .2);
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, .2);
+}

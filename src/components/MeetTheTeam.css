@@ -1,0 +1,18 @@
+
+.team {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.team .team-cont {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    overflow: hidden;
+}
