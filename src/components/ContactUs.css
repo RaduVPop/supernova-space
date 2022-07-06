@@ -48,12 +48,10 @@
 
   
   .wrapper {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, 1fr );
-    grid-template-rows: auto;
-    grid-template-areas:
-      "menu menu menu"
-      ". card .";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -123,6 +121,8 @@
     cursor: pointer;
     -webkit-transition: all var(--speed) ease;
     transition: all var(--speed) ease;
+    -webkit-box-shadow: 0px 1px 10px 1px rgba(255,255,255,0.2); 
+    box-shadow: 0px 1px 10px 1px rgba(255,255,255,0.2);
   }
   
   .card:hover {
@@ -254,6 +254,8 @@
   .card__body {
     display: grid;
     padding: 0 20px;
+    width: 100%;
+    min-width: 250px;
   }
   
   .card__name {
@@ -302,7 +304,7 @@
     -webkit-transform: translateY(30%);
     transform: translateY(30%);
     display: block;
-    margin: 22px 0 16px 0;
+    margin: 2rem auto 16px auto;
     font-size: var(--fontMedium);
     font-weight: var(--fontLight);
     /*text-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.35);*/
@@ -310,6 +312,16 @@
     opacity: 0;
     -webkit-transition: all var(--speed) ease;
     transition: all var(--speed) ease;
+    text-align: center;
+    border: 2px solid #fff;
+    width: 100px;
+    padding: .5rem;
+    border-radius: 5px;
+  }
+    
+  .card__bio:hover {
+    background-color: #fff;
+    color: #000 !important;
   }
   
   .card:hover .card__bio {

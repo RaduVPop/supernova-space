@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Card.css";
 
-const Card = ({ name, familyName, description, role }) => {
+const Card = ({ name, familyName, description, role, img }) => {
   return (
     <div>
       <figure class="snip0057 red hover">
@@ -25,7 +25,7 @@ const Card = ({ name, familyName, description, role }) => {
         </figcaption>
         <div class="image">
           <img
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample4.jpg"
+            src={img}
             alt="sample4"
           />
         </div>

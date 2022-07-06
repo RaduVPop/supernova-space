@@ -12,7 +12,7 @@ const AboutUs = () => {
 
       <div className="about-us-cont">
         <div className="about-us-header">
-          <h2>Our Mission</h2>
+          <h2>MVP Project</h2>
           <p>
             Our mission is to prove that a weather balloon as an airborne launch
             platform is a reliable and reusable method of launching a

@@ -19,8 +19,8 @@ figure.snip0057 {
     width: 50%;
     overflow: hidden;
     z-index: 1;
-    -webkit-transform: skewX(-15deg);
-    transform: skewX(-15deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
   }
   
   figure.snip0057 .image img {
@@ -71,7 +71,7 @@ figure.snip0057 {
   }
   
   figure.snip0057 figcaption p {
-    font-size: 0.9em;
+    font-size: .8rem;
     opacity: 0.8;
   }
   
@@ -165,6 +165,6 @@ figure.snip0057 {
 
   @media (max-width: 450px) {
     figure.snip0057 {
-      max-width: 350px;
+      max-width: 400px;
     }
   }

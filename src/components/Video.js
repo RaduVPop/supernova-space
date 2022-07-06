@@ -12,12 +12,12 @@ const Video = () => {
         <source src={spaceVideo} type="video/mp4" />
       </video>
       <div className="content">
-        <h1>SuperNova Space</h1>
+        <h1>Supernova Space Systems</h1>
         <p>
-          Our mission is to prove that a weather balloon as an airborne launch
-          platform is a reliable and reusable method of launching a spacecraft.
-          We are currently creating a minimum viable product for a future
-          small-satellite launch service business.
+          Our mission is to become the cheapest and most flexible end-to-end space company.
+        </p>
+        <p>
+          We will achieve this by creating reusable, air-launched rockets and modular spacecraft.
         </p>
         <div className="hero-btns">
           <Link to="/about" className="btn">
