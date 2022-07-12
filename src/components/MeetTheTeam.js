@@ -5,7 +5,7 @@ import HeroImage from "./HeroImage.js";
 
 import "./MeetTheTeam.css";
 
-import img from "../assets/adampic.jpg"
+import img from "../assets/adampicReduced.png"
 
 const MeetTheTeam = () => {
   return (

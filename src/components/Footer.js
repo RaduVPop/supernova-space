@@ -28,8 +28,8 @@ const Footer = () => {
             <Link to="/">
               <FaFacebook size={30} style={{ marginRight: "1rem" }} />
             </Link>
-            <Link to="/">
-              <FaInstagram size={30} style={{ marginRight: "1rem" }} />
+            <Link to={{hash:"#/https://instagram.com/supernovaspacesystems?igshid=YmMyMTA2M2Y%3D"}}>
+              <FaInstagram size={30} style={{ marginRight: "1rem" }}/>
             </Link>
             <Link to="/">
               <FaLinkedin size={30} style={{ marginRight: "1rem" }} />

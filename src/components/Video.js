@@ -14,10 +14,7 @@ const Video = () => {
       <div className="content">
         <h1>Supernova Space Systems</h1>
         <p>
-          Our mission is to become the cheapest and most flexible end-to-end space company.
-        </p>
-        <p>
-          We will achieve this by creating reusable, air-launched rockets and modular spacecraft.
+        Our mission is to unlock humanity’s full potential by making space available to everyone
         </p>
         <div className="hero-btns">
           <Link to="/about" className="btn">

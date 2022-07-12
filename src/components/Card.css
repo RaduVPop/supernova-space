@@ -16,6 +16,10 @@ figure.snip0057 {
   }
   
   figure.snip0057 .image {
+   
+    min-width: 320px auto;
+    max-height: 400px;
+    object-fit:  fill;
     width: 50%;
     overflow: hidden;
     z-index: 1;
