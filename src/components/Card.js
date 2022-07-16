@@ -5,7 +5,16 @@ import "./Card.css";
 const Card = ({ name, familyName, description, role, img }) => {
   return (
     <div>
-      <figure class="snip0057 red hover">
+      <div className="adam">
+        <div className="adam-img">
+          <img src={img} alt="" />
+        </div>
+        <div className="adam-cont">
+          <h2>{name} {familyName}</h2>
+          <p>{description}</p>
+        </div>
+      </div>
+      {/* <figure class="snip0057 red hover">
         <figcaption>
           <h2>
             {name} <span>{familyName}</span>
@@ -30,7 +39,7 @@ const Card = ({ name, familyName, description, role, img }) => {
           />
         </div>
         <div class="position">{role}</div>
-      </figure>
+      </figure> */}
     </div>
   );
 };

@@ -1,9 +1,59 @@
+.adam {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4rem 10px 1rem 10px;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.adam .adam-img {
+}
+
+.adam .adam-img img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.adam .adam-cont {
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.adam .adam-cont h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+
+.adam .adam-cont p {
+  font-size: 1rem;
+}
+
+@media (max-width: 651px) {
+  .adam .adam-cont {
+    text-align: center;
+  }
+
+  .adam .adam-cont p {
+    text-align: justify;
+    letter-spacing: 1px;
+  }
+  
+}
+
+
 figure.snip0057 {
     position: relative;
     overflow: hidden;
     margin: 10px;
-    min-width: 380px;
-    max-width: 480px;
+    min-width: 480px;
+    max-width: 580px;
     width: 100%;
     color: #000000;
   }
@@ -16,24 +66,31 @@ figure.snip0057 {
   }
   
   figure.snip0057 .image {
-   
     min-width: 320px auto;
     max-height: 400px;
     object-fit:  fill;
-    width: 50%;
+    width: 60%;
     overflow: hidden;
     z-index: 1;
-    -webkit-transform: skewX(-10deg);
-    transform: skewX(-10deg);
+    -moz-transform: scale(0.9) skew(-20deg, 0deg);
+    -webkit-transform: scale(0.9) skew(-20deg, 0deg);
+    -o-transform: scale(0.9) skew(-20deg, 0deg);
+    -ms-transform: scale(0.9) skew(-20deg, 0deg);
+    transform: scale(0.9) skew(-20deg, 0deg);
   }
   
   figure.snip0057 .image img {
+    width: 100%;
+    height: auto;
     position: relative;
     display: block;
-    left: -15%;
+    /* left: -20%; */
     z-index: 1;
-    -webkit-transform: skew(15deg);
-    transform: skew(15deg);
+    -moz-transform: scale(0.9) skew(20deg, 0deg);
+    -webkit-transform: scale(0.9) skew(20deg, 0deg);
+    -o-transform: scale(0.9) skew(20deg, 0deg);
+    -ms-transform: scale(0.9) skew(20deg, 0deg);
+    transform: scale(0.9) skew(20deg, 0deg);
   }
   
   figure.snip0057:before {
@@ -53,7 +110,7 @@ figure.snip0057 {
     position: absolute;
     right: 0;
     bottom: 10px;
-    width: 50%;
+    width: 60%;
   }
   
   figure.snip0057 figcaption h2,
@@ -75,7 +132,7 @@ figure.snip0057 {
   }
   
   figure.snip0057 figcaption p {
-    font-size: .8rem;
+    font-size: .9rem;
     opacity: 0.8;
   }
   
@@ -102,10 +159,11 @@ figure.snip0057 {
   
   figure.snip0057 .position {
     position: absolute;
-    bottom: 0;
+    bottom: 9%;
+    left: 3%;
     width: 100%;
     text-align: left;
-    padding: 15px 30px;
+    padding: 10px 30px;
     font-size: 0.9em;
     opacity: 1;
     font-style: italic;

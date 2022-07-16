@@ -25,15 +25,15 @@ const Footer = () => {
           We will achieve this by creating reusable, air-launched rockets and modular spacecraft.
         </p>
           <div className="social">
-            <Link to="/">
+            {/* <Link to="/">
               <FaFacebook size={30} style={{ marginRight: "1rem" }} />
-            </Link>
-            <Link to={{hash:"#/https://instagram.com/supernovaspacesystems?igshid=YmMyMTA2M2Y%3D"}}>
+            </Link> */}
+            <a href="https://instagram.com/supernovaspacesystems?igshid=YmMyMTA2M2Y%3D" target="_blank">
               <FaInstagram size={30} style={{ marginRight: "1rem" }}/>
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="" target="_blank">
               <FaLinkedin size={30} style={{ marginRight: "1rem" }} />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="right">

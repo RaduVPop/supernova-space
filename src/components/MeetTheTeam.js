@@ -10,7 +10,7 @@ import img from "../assets/adampicReduced.png"
 const MeetTheTeam = () => {
   return (
     <div className="team">
-      <HeroImage heading="Meet The Team" text="Get familiar with who we are" />
+      <HeroImage heading="Meet The Founder" text="Get familiar with who we are" />
 
       <div className="team-cont">
         <Card
@@ -21,17 +21,6 @@ const MeetTheTeam = () => {
           img={img}
         />
 
-        <Card
-          name="Debjyoti"
-          familyName="Sengupta"
-          description="A voice crackles in Calvin's radio: 'Enemy fighters at two
-        ' 'Roger. What should I do until then?'"
-          role="CTO"
-          img={img}
-
-        />
-
-       
       </div>
     </div>
   );
